@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(192, 182, 182, 1);
+}
+.navbar {
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 2px 1px rgba(0, 0, 0, 0.6);
+  margin-top: 10px;
+  margin-left: 10rem;
+  margin-right: 15rem;
+  height: 4rem;
+  width: auto;
+  color: rgba(151, 161, 230, 1);
+  font-family: poppins;
+  font-weight: bold;
+  background-color: rgba(217, 217, 217, 1);
+}
+.nav-contents {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.website-name {
+  font-size: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+.website-name .book {
+  font-size: 3rem;
+  width: 2rem;
+  margin-top: -6px;
+}
+.w-name {
+  padding-left: 4rem;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.list {
+  display: flex;
+  gap: 7px;
+  margin-top: 5px;
+}
+.list:hover{
+  cursor:pointer;
+  color:blue;
+}
+.list .list-title {
+  margin-top: 2px;
+}
+.create-contact {
+  display: flex;
+  gap: 5px;
+  padding-top: 5px;
+}
+.create-contact .title {
+  margin-top: 2px;
+}
+.create-contact:hover{
+  cursor:pointer;
+  color:blue;
+}
+.main {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+}
+.forms {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+}
+.contact-box {
+  background-color: rgba(202, 195, 195, 1);
+  box-shadow: inset 0px 4px 3px 1px rgba(0, 0, 0, 0.6);
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  width: 40rem;
+  border-radius: 10px;
+}
+#contacts {
+  width: 30rem;
+  margin-left: 5rem;
+  margin-top: 3rem;
+}
+.single {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  gap:1rem;
+}
+.single:hover{
+  cursor:pointer;
+  background-color: aliceblue;
+}
+.contact-img {
+  background-color: rgba(151, 201, 230, 1);
+  padding: 0.5rem;
+  border-radius: 50%;
+  color: white;
+}
+.contact-name {
+  margin-top: 9px;
+  color: rgba(151, 201, 230, 1);
+}
+.form-box {
+  background-color: rgba(202, 195, 195, 1);
+  box-shadow: inset 0px 5px 3px 1px rgba(0, 0, 0, 0.6);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  width: 40rem;
+  border-radius: 15px;
+}
+.form-elements {
+  display: flex;
+  flex-direction: column;
+  padding-left: 6rem;
+  gap: 0.5rem;
+}
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  color: gray;
+}
+.input-box {
+  width: 18rem;
+  height: 1.8rem;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid gray;
+  padding-left: 3rem;
+}
+input:focus {
+  outline: none;
+}
+#create-btn {
+  width: 18rem;
+  height: 2rem;
+  margin-top: 1rem;
+  box-shadow: inset 0px 0px 10px 2px rgba(0, 0, 0, 0.6);
+  background-color: rgba(110, 180, 200, 1);
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+.identification {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+}
+.details-box{
+  background-color: rgba(202, 195, 195, 1);
+  box-shadow: inset 0px 1px 1px 1px rgba(0, 0, 0, 0.6);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  width: 40rem;
+  border-radius: 15px;
+}
+.details-box div:nth-child(odd){
+  background-color: beige;
+  padding:1rem;
+  font-style: normal;
+  width: 20rem;
+  border-radius:5px;
+}
+.information{
+  width: 30rem;
+  margin-left: 5rem;
+  margin-top: 3rem;
+}
+.details{
+  display: flex;
+  flex-direction: column;
+  padding-left: 6rem;
+  gap: 0.5rem;
+}
+.details-box div{
+  margin-left:6rem;
+  color:gray;
+}
+.close{
+  display:none;
+  margin-left:38rem;
+  margin-top:-2rem;
+}
+.close:hover{
+  background-color: orchid;
+  cursor:pointer;
+}
+/*media queries*/
+@media(max-width:600px){
+  .navbar{
+    margin:0px;
+  }
+  .website-name {
+    font-size: 1rem;
+    gap: 1rem;
+  }
+  .website-name .book {
+    font-size: 2rem;
+    width: 1.4rem;
+    margin-top: -3px;
+  }
+  .contact-box  {
+    background-color: rgba(202, 195, 195, 1);
+    box-shadow: inset 0px 4px 3px 1px rgba(0, 0, 0, 0.6);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: auto;
+    border-radius: 5px;
+  }
+  #contacts {
+    width: auto;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    font-size: small;
+  }
+  .contact-img{
+  padding: 0.1rem;
+ }
+}
+@media(max-width:976px){
+  .navbar{
+    margin:0px;
+  }
+  .website-name {
+    font-size: 1rem;
+    gap: 1rem;
+  }
+  .website-name .book {
+    font-size: 2rem;
+    width: 1.4rem;
+    margin-top: -3px;
+  }
+  .contact-box {
+    background-color: rgba(202, 195, 195, 1);
+    box-shadow: inset 0px 4px 3px 1px rgba(0, 0, 0, 0.6);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: auto;
+    border-radius: 5px;
+  }
+  #contacts {
+    width: auto;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    font-size: medium;
+  }
+  .contact-img{
+  padding: 0.4rem;
+ }
+}

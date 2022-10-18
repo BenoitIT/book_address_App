@@ -1,0 +1,109 @@
+<html>
+
+<head>
+  <title>address-book</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="nav-contents">
+      <div class="website-name">
+        <span class="material-symbols-outlined book">
+          auto_stories
+        </span>
+        <span id="w-name">
+          ADDRESS BOOK
+          <span>
+      </div>
+      <div class="links">
+        <div class="list">
+          <span class="material-symbols-outlined">
+            format_list_bulleted_add
+          </span>
+          <span class="list-title">
+            List
+          </span>
+        </div>
+        <div class="create-contact">
+          <span class="material-symbols-outlined">
+            cinematic_blur
+          </span>
+          <span class="title">
+            Create contact
+          </span>
+        </div>
+      </div>
+    </div>
+    <!-----end of nav bar--->
+    <section class="main">
+      <div class="contact-box">
+        <div id="contacts">
+
+
+        </div>
+      </div>
+    </section>
+    <!--end of list of contact section-->
+    <section class="forms">
+      <div class="form-box">
+        <div class="contacts">
+          <div class="form-elements">
+            <form>
+              <div class="form-inputs">
+                <label forHtml="Fname">First Name</label>
+                <input class="input-box" placeholder="Enter contact First name" id="Fname" required />
+              </div>
+              <div class="form-inputs">
+                <label forHtml="Lname">Last Name</label>
+                <input class="input-box" placeholder="Enter contact Last name" id="Lname" required>
+              </div>
+              <div class="form-inputs">
+                <label forHtml="nation">Nationality</label>
+                <input class="input-box" placeholder="Enter contact's nationality" id="nation" required />
+              </div>
+              <div class="form-inputs">
+                <label forHtml="district">District</label>
+                <input class="input-box" placeholder="Enter contact district" id="district" required />
+              </div>
+              <div class="form-inputs">
+                <label forHtml="email">Email</label>
+                <input class="input-box" placeholder="Enter contact Email" id="email" required />
+              </div>
+              <div class="form-inputs">
+                <label forHtml="phone">Phone Number</label>
+                <input class="input-box" placeholder="Enter contact's phone" id="phone" required />
+              </div>
+              <div class="form-inputs">
+                <label forHtml="memberOFfamily">Number of family</label>
+                <input class="input-box" placeholder="Enter contact's member of family" id="memberOFfamily" required />
+              </div>
+              <div class="form-inputs">
+                <label forHtml="freind">Freinds</label>
+                <input class="input-box" placeholder="Enter contact's member of family" id="freind" required />
+              </div>
+              <div class="form-inputs">
+                <label forHtml="acquaint">Acquaintance</label>
+                <input class="input-box" placeholder="Enter contact's acquaintance" id="acquaint" required />
+              </div>
+              <div class="button">
+                <button type="submit" id="create-btn">Create Contact</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end of contact form-->
+    <section class="identifcation">
+      <div>
+        <span class="material-symbols-outlined close">
+          close
+          </span>
+      </div>
+
+    </section>
+    <script src="index.js"></script>
+  </body>
+  </html>
